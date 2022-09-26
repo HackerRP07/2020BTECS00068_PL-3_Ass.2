@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tourist Website
+        </title>
+    <style>
+        body{
+            background-image: url(pro1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;   
+            background-position: top center;
+            height: 100lh;
+            width: 100%;
+        }
+      
+        #p1{
+            font-size: 16px;
+            display: inline;
+        }
+         #navbar{
+            border: 2px;
+            background-color: gray; 
+            padding: 12px 15px;
+            overflow: auto;
+            margin-top: 15px;
+         }
+
+         #navbar a{
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 19px;
+           padding: 0px 15px;
+            float: right;
+            transition-property: all;
+            transition-duration: 0.5s;
+         }
+
+         #navbar a:hover{
+            color:greenyellow;
+            font-size: 25px;
+         }
+        #p2{
+            font-size: 28px;
+            color: whitesmoke;
+            position: absolute;
+            top: 220px;
+            left: 40%;
+            word-spacing: 10px;
+         }   
+
+        #p3{
+            font-size: 35px;
+            color: whitesmoke;
+            position: absolute;
+            top: 265px ;
+            left: 28%;
+            word-spacing: 10 px;
+            animation: anim2 3s infinite ;
+        }
+
+        #more{
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 18px;
+            width: 110px;
+            text-align: center;
+            cursor: grab;
+            background-color: azure;
+            position: absolute;
+            top: 320px;
+            left: 38%; 
+        }
+
+        @keyframes anim2{
+            0%{   
+                color: crimson;
+            }
+            50%{
+                color: gold;
+            }
+            100%{
+                color: mediumvioletred;
+            }
+        }
+
+        #p5:after{  
+            
+            animation-name:animation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;   
+        }
+        
+
+        #sf{
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 18px;
+            width: 150px;
+            text-align: center;
+            word-spacing: 7px;
+            cursor: grab;
+            background-color: azure;
+            position: absolute;
+            top: 320px;
+            left: 48%; 
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <div id="navbar">
+             <p id="p1">INDIAN TOURISM</p>
+            <a href="https://www.google.com">CONTACT</a>
+            <a href="https://www.google.com">ABOUT</a> 
+            <a href="https://www.google.com">GALLERY</a>
+            <a href="https://www.google.com">HOME</a>
+        </div>
+
+        <div id="p2">
+            WELCOME  TO  INDIA
+        </div>
+        <div id="p3">
+            DO COME AND VISIT NATURE OF INDIA<span id="p5"></span> 
+        </div>
+
+        <div id="more">
+           <a href="https://www.google.com/"> Learn More </a>
+        </div>
+        <div id="sf">
+            <a href="https://www.google.com/"> SIGNUP FREE</a>
+        </div>
+            
+    </body>
+</html>
